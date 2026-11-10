@@ -16,10 +16,8 @@ O **Kartā** foi concebido para executar com rigor técnico e adaptabilidade ime
 Para ativar o Kartā globalmente no seu Antigravity em qualquer máquina (Linux/macOS), abra o terminal e execute:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SEU_USUARIO/karta-agent/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vlaudimirdm-ship-it/karta-agent/main/install.sh | bash
 ```
-
-> **Nota:** Substitua `SEU_USUARIO` pelo seu usuário do GitHub após subir o repositório.
 
 ---
 
@@ -29,7 +27,7 @@ Se preferir instalar manualmente:
 
 ```bash
 mkdir -p ~/.gemini/config/rules
-curl -fsSL https://raw.githubusercontent.com/SEU_USUARIO/karta-agent/main/AGENTS.md -o ~/.gemini/config/rules/karta.md
+curl -fsSL https://raw.githubusercontent.com/vlaudimirdm-ship-it/karta-agent/main/AGENTS.md -o ~/.gemini/config/rules/karta.md
 ```
 
 Ou copie o arquivo `AGENTS.md` diretamente para a raiz do seu projeto local.
@@ -48,4 +46,3 @@ rm -f ~/.gemini/config/rules/karta.md
 
 ## 📜 Licença
 MIT License - Aberto para uso pessoal, acadêmico e profissional.
-
